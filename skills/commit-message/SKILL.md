@@ -1,6 +1,5 @@
 ---
 name: commit-message
-description: Proposes a Conventional Commits message in English for a finished change, with type, scope and requirement id, ready for the user to commit. Use when the user asks for a commit message, says a change is done or ready to commit, or a repository rule says the agent must not commit. Never runs git.
 license: MIT
 metadata:
   author: hector-vidal

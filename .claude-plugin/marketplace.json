@@ -1,0 +1,21 @@
+{
+  "name": "hector-vidal-skills",
+  "owner": { "name": "hector-vidal" },
+  "metadata": { "description": "Personal agent skills", "version": "0.1.0" },
+  "plugins": [
+    {
+      "name": "dev-workflow",
+      "description": "Commit messages, AGENTS.md and project bootstrap",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/commit-message"]
+    },
+    {
+      "name": "code-quality",
+      "description": "Code and UI review checklists",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/sustainable-code-review"]
+    }
+  ]
+}

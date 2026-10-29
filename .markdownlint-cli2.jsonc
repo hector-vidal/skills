@@ -1,0 +1,14 @@
+{
+  "globs": ["**/*.md"],
+  "ignores": ["node_modules/**"],
+  "config": {
+    "default": true,
+    // Long prose lines are allowed up to 120 characters. Tables and code blocks
+    // are exempt because reflowing them by hand hurts readability.
+    "MD013": {
+      "line_length": 120,
+      "tables": false,
+      "code_blocks": false
+    }
+  }
+}

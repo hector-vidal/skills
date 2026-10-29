@@ -1,14 +1,13 @@
 {
-  "globs": ["**/*.md"],
-  "ignores": ["node_modules/**"],
   "config": {
     "default": true,
-    // Long prose lines are allowed up to 120 characters. Tables and code blocks
-    // are exempt because reflowing them by hand hurts readability.
-    "MD013": {
-      "line_length": 120,
-      "tables": false,
-      "code_blocks": false
-    }
-  }
+    // Technical prose does not wrap at a fixed width; enforcing it would only produce noise.
+    "MD013": false,
+    // Tables use padded pipes, not the compact style.
+    "MD060": { "style": "padded" },
+    // CHANGELOG.md repeats "Añadido" and "Corregido" once per version, as Keep a Changelog does.
+    "MD024": { "siblings_only": true }
+  },
+  "globs": ["**/*.md"],
+  "ignores": ["**/node_modules/**", ".venv/**", ".pytest_cache/**", ".agents/skills/**"]
 }

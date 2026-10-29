@@ -24,6 +24,10 @@ As a Claude Code plugin marketplace:
 /plugin marketplace add hector-vidal/skills
 ```
 
+## Development
+
+Issues and pull requests are welcome: see [CONTRIBUTING.md](CONTRIBUTING.md). Branches, checks and how to add a skill are in [WORKFLOW.md](WORKFLOW.md); changes per version, in [CHANGELOG.md](CHANGELOG.md).
+
 ## License
 
 MIT. Skills based on books summarize their ideas in our own words and cite the source in their `metadata`.

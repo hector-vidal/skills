@@ -1,0 +1,20 @@
+{
+  "name": "skills-tooling",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Repo-level tooling: git hooks, commit message and Markdown linting, skill validation.",
+  "packageManager": "pnpm@11.13.1+sha512.b2fc7683b8a6525414e7d13e1ba28caaddde96bf66ec540bfaeb7e702b81f3e0be4d1f295edf7f9fe0396740a8dce4509c582ddf79891f4543fea32d37645f25",
+  "scripts": {
+    "prepare": "husky",
+    "lint:md": "markdownlint-cli2",
+    "lint:md:fix": "markdownlint-cli2 --fix",
+    "check:skills": "for dir in skills/*/; do uvx --from 'git+https://github.com/agentskills/agentskills@69ef37e9424c0a7ea9dd2293b559e43ec8176379#subdirectory=skills-ref' skills-ref validate \"$dir\" || exit 1; done && DISABLE_TELEMETRY=1 pnpm dlx skills@1.7.4 add . --list"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "21.2.1",
+    "@commitlint/config-conventional": "21.2.0",
+    "husky": "9.1.7",
+    "markdownlint-cli2": "0.23.0"
+  }
+}

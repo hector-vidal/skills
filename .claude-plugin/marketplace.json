@@ -22,7 +22,7 @@
       "description": "Research investigations and document conversion in a Markdown knowledge base",
       "source": "./",
       "strict": false,
-      "skills": ["./skills/investigation-lifecycle"]
+      "skills": ["./skills/investigation-lifecycle", "./skills/convert-to-markdown"]
     }
   ]
 }

@@ -6,6 +6,7 @@ Changes that users of these skills would notice. The format follows [Keep a Chan
 
 ### Added
 
+- `write-agents-md` skill in the `dev-workflow` plugin: writes or reviews a repository's `AGENTS.md` and the `CLAUDE.md` pointer, and places each rule in `AGENTS.md`, a skill or a subagent.
 - `CONTRIBUTING.md`, a pull request template and this changelog.
 - Git hooks, commitlint and continuous integration that validate every skill with `skills-ref` and the skills.sh CLI.
 

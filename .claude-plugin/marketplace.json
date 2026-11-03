@@ -30,6 +30,13 @@
       "source": "./",
       "strict": false,
       "skills": ["./skills/blind-evaluation"]
+    },
+    {
+      "name": "management",
+      "description": "Service and project management frameworks applied at small scale",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/itil-service-management"]
     }
   ]
 }

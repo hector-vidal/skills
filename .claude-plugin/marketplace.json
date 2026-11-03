@@ -16,6 +16,13 @@
       "source": "./",
       "strict": false,
       "skills": ["./skills/sustainable-code-review"]
+    },
+    {
+      "name": "vault",
+      "description": "Research investigations and document conversion in a Markdown knowledge base",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/investigation-lifecycle"]
     }
   ]
 }

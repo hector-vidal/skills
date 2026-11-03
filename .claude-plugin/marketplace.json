@@ -36,7 +36,7 @@
       "description": "Service and project management frameworks applied at small scale",
       "source": "./",
       "strict": false,
-      "skills": ["./skills/itil-service-management"]
+      "skills": ["./skills/itil-service-management", "./skills/pmbok-tailoring"]
     }
   ]
 }

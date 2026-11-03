@@ -6,6 +6,7 @@ Changes that users of these skills would notice. The format follows [Keep a Chan
 
 ### Added
 
+- `blind-evaluation` skill in the new `research` plugin: prepares a blind comparison scored by a person with a frozen rubric, anonymous codes, a shuffled score sheet and a sealed key.
 - `convert-to-markdown` skill in the `vault` plugin: converts .docx and .pdf files to Markdown with Pandoc and pymupdf4llm, keeps originals and images apart, and checks the output for lost text and garbled characters.
 - `investigation-lifecycle` skill in the new `vault` plugin: opens, pauses, resumes, closes, reopens and transfers a research investigation kept as Markdown notes, with templates for each document.
 - `write-agents-md` skill in the `dev-workflow` plugin: writes or reviews a repository's `AGENTS.md` and the `CLAUDE.md` pointer, and places each rule in `AGENTS.md`, a skill or a subagent.

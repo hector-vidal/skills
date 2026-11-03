@@ -23,6 +23,13 @@
       "source": "./",
       "strict": false,
       "skills": ["./skills/investigation-lifecycle", "./skills/convert-to-markdown"]
+    },
+    {
+      "name": "research",
+      "description": "Blind comparisons and measurement of candidates",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/blind-evaluation"]
     }
   ]
 }
